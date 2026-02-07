@@ -1,22 +1,32 @@
-# Scope & boundaries (public repo vs future platform)
+# Moat boundary — what is public vs private
 
-## What this public repo contains
-This repo publishes **governance artefacts** intended to be useful and recruiter-readable:
-- Frameworks, controls maps, and checklists
-- Operating model and RACI (how governance runs)
-- Documentation templates (intake, risk register, model/system cards)
-- Monitoring and incident response playbooks
+## Public (this repo)
+This public repo contains **reference artefacts** that demonstrate operational AI governance:
+- EU AI Act controls maps and checklists
+- Governance framework, operating model, RACI
+- Templates (intake, risk register, model/system cards)
+- Monitoring and incident playbooks
 - Case studies showing end-to-end application
 
-## What the future platform will add (not published here)
-A separate commercial implementation is planned privately, focused on:
-- Workflow automation (intake → evidence pack → approvals → audit trail)
-- Integrations (e.g., document systems, ticketing, cloud logs)
-- Export packs for stakeholders (board/procurement/compliance)
-- Benchmarking and continuous improvement signals derived from usage
+Purpose of public artefacts:
+- Recruiter-readable proof
+- Practitioner usefulness
+- A clear “how to run governance” system for SMEs
 
-## What is intentionally not published in this repo
-To keep the public artefacts reusable while preserving a product roadmap, this repo excludes:
-- Production automation logic and configuration rules
-- Calibrated scoring weights, thresholds, or benchmarking datasets
-- Customer-specific implementation playbooks or proprietary defaults
+## Private (commercial platform — NOT in this repo)
+The commercial implementation is intentionally excluded from this public repo, including:
+- Production automation logic and workflows
+- Proprietary scoring weights, thresholds, and calibration
+- Benchmark datasets and heuristics derived from customer usage
+- Customer-ready export pack formats and styling
+- Integrations (M365/SharePoint/Teams/Jira/Cloud logs)
+- Any customer-specific governance pack content
+
+## Why this boundary exists
+- Public artefacts build credibility and distribution.
+- The commercial moat is **automation + integration + benchmarking + export packs**.
+
+## What will never be open-sourced here
+- The rules/heuristics engine that generates evidence packs at scale
+- Benchmark data and calibrated scoring models
+- Production-grade templates that embed proprietary defaults
