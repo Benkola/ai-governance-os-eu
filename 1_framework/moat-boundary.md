@@ -1,3 +1,9 @@
+Acceptance criteria
+
+explicitly lists what is public vs private
+
+explicitly states what will never go in public repo (benchmarks, scoring weights, automation logic)
+
 A clear statement like:
 
 “Repo provides reference governance artefacts.”
