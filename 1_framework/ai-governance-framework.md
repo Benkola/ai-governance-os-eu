@@ -98,4 +98,8 @@ Minimum viable decision rights for an SME:
 - Incidents are recorded and drive control improvements
 - Vendor obligations and responsibilities are explicit in writing
 
-
+## 10) How this framework is used
+- Referenced during UAT sign-off to confirm evidence exists
+- Used as a CAB input for AI-enabled releases
+- Reviewed in weekly delivery forums for risk ownership and open issues
+- Scales requirements by risk tier to avoid slowing low-risk delivery
