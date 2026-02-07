@@ -1,7 +1,6 @@
 # AI Governance OS (EU)
 
 **Repo:** `ai-governance-os-eu`  
-
 **Focus:** EU-first AI governance for SMEs (ML + GenAI + vendor AI), translated into implementable controls, templates, and evidence packs.
 
 This is a public, operational portfolio repo — not an academic syllabus. It exists to show:
@@ -75,7 +74,7 @@ A separate commercial platform (automation, exports, integrations, benchmarking)
 ### Route A — Approve a use case
 1) Fill the intake form  
 2) Identify obligations + controls  
-3) Require an evidence pack  
+3) Require evidence pack  
 4) Define monitoring + incident response  
 5) Approve, log, and review
 
