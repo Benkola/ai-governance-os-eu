@@ -14,6 +14,9 @@ Create a repeatable, lightweight governance system that enables SMEs to adopt AI
 4) **Vendor AI still requires oversight (due diligence + monitoring).**
 5) **Measure what matters (performance, safety, abuse, privacy).**
 6) **Document intent, limits, and failure modes.**
+7) **Governance artefacts must be reviewed at UAT sign-off and referenced in CAB approval; unused documentation does not count.**
+8) **No vendor AI is deployed without explicit internal ownership and minimum evidence; vendor assurances never replace accountability.**
+9) **Governance is risk-tiered (Low / Medium / High); low-risk ≤30 mins, higher risk = deeper evidence + cadence.**
 
 ## 3) Scope (systems this applies to)
 - Internal ML systems used in business processes
@@ -91,3 +94,4 @@ Minimum viable decision rights for an SME:
 - Monitoring is active with thresholds and escalation
 - Incidents are recorded and drive control improvements
 - Vendor obligations and responsibilities are explicit in writing
+
