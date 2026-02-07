@@ -1,5 +1,8 @@
 # AI Governance Framework (SME, EU-first) — v1
 
+This framework exists to help teams ship AI safely without slowing delivery.
+It is designed to integrate into real release processes (UAT, CAB, weekly delivery forums) and scale governance effort by risk, not bureaucracy.
+
 ## 1) Purpose
 Create a repeatable, lightweight governance system that enables SMEs to adopt AI safely and credibly under EU expectations:
 - clear decision rights
@@ -94,4 +97,5 @@ Minimum viable decision rights for an SME:
 - Monitoring is active with thresholds and escalation
 - Incidents are recorded and drive control improvements
 - Vendor obligations and responsibilities are explicit in writing
+
 
