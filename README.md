@@ -32,6 +32,22 @@ This repo is built from primary governance sources and implementation-grade fram
 
 ---
 
+## Data governance foundation
+AI governance does not operate in isolation. Every AI system depends on underlying data governance capabilities. This repo addresses both:
+
+- **Data stewardship** — ownership structures, accountability, and steward onboarding
+- **Data quality** — accuracy, completeness, consistency, timeliness, validity, and uniqueness
+- **Metadata management** — cataloguing, classification, and discoverability of data assets
+- **Data lineage** — tracing data from source to model to decision
+- **Data classification** — sensitivity labelling and access control alignment
+- **Regulatory data obligations** — GDPR data processing requirements, DMA data access obligations, SOx data integrity controls
+
+The governance framework in this repo treats data governance as a prerequisite layer: if your data governance is immature, your AI governance will be brittle. The maturity model, readiness scorecards, and intake forms all include data governance readiness checks.
+
+Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
+
+---
+
 ## Start here (recommended reading order)
 
 1) `0_start-here/scope.md` — boundaries, SME assumptions  
