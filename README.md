@@ -83,7 +83,7 @@ This repo contains governance artefacts and reference implementations.
 
 A separate commercial platform (automation, exports, integrations, benchmarking) is being developed privately.  
 
-**This public repo intentionally excludes** proprietary scoring weights, benchmark data, and production automation logic.
+This public repo intentionally excludes proprietary scoring weights, benchmark data, and production automation logic.
 
 ---
 
