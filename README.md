@@ -48,32 +48,31 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ---
 
-## Start here (recommended reading order)
+## Start here
 
-1) `0_start-here/scope.md` — boundaries, SME assumptions  
-2) `1_framework/ai-governance-framework.md` — the system (lifecycle + evidence)  
-3) `4_eu-ai-act/eu-ai-act-controls-map.md` — controls mapping (Week 2)  
-
+1) `0_start-here/scope.md`  — boundaries, SME assumptions
+2) `1_framework/ai-governance-framework.md` — the system (lifecycle + evidence)
 ---
 
 ## Repo map
 
-### `0_start-here/`
-- `scope.md` — what’s in/out, SME assumptions, definitions  
-- `how-to-use-this-repo.md` — three adoption routes  
+### 0_start-here/
+
+- `scope.md` — what's in/out, SME assumptions, definitions
+- `how-to-use-this-repo.md` — three adoption routes
 - `glossary.md` — consistent terminology
 
-### `1_framework/`
-- `ai-governance-framework.md` — lifecycle + evidence pack + decision rights  
-- `operating-model.md` — governance forums + cadence (Week 4)  
-- `raci.md` — accountability by stage (Week 4)
+### 1_framework/
 
-### `12_platform-blueprint/`
-- `product-brief.md` — Evidence Pack Generator wedge (public concept, not implementation)  
-- `mvp-workflows.md` — workflow specs (inputs/steps/outputs)  
+- `ai-governance-framework.md` — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
+
+### 12_platform-blueprint/
+
+- `product-brief.md` — Evidence Pack Generator wedge (public concept, not implementation)
+- `mvp-workflows.md` — workflow specs (inputs/steps/outputs)
 - `moat-boundary.md` — what stays public vs private (defensibility)
 
-(Additional folders are added week-by-week as artefacts ship.)
+This repo is built weekly. The repo map is updated as new artefacts ship.
 
 ---
 
