@@ -15,7 +15,7 @@ This is a public, operational portfolio repo — not an academic syllabus. It ex
 
 If you’re an SME adopting AI (or buying AI-enabled tools), this repo helps you:
 - Run **intake → classification → risk assessment → approval → monitoring → incident response → retirement**
-- Produce an **evidence pack** before deployment (traceability, accountability, monitoring readiness)
+- Produce an evidence pack before deployment (traceability, accountability, monitoring readiness)
 - Implement EU-first controls with minimal overhead
 - Evaluate vendors with governance-grade due diligence
 
@@ -80,7 +80,9 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 ## Platform roadmap (separate from this repo)
 
 This repo contains governance artefacts and reference implementations.  
+
 A separate commercial platform (automation, exports, integrations, benchmarking) is being developed privately.  
+
 **This public repo intentionally excludes** proprietary scoring weights, benchmark data, and production automation logic.
 
 ---
