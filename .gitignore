@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
