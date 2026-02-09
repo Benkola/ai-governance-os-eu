@@ -114,5 +114,18 @@ If you want to implement this in your SME (EU-first, evidence-based), I can supp
 
 ---
 
+## About the author
+I'm a Product Manager with 3+ years of experience, pivoting into Data & AI Governance with a focus on the EU AI Act and responsible AI.
+I'm actively seeking Data & AI Governance roles in the Netherlands — including AI governance, responsible AI, compliance, and governance operations positions.
+If you're hiring, building a governance function, or want to discuss AI governance implementation:
+
+LinkedIn: Let's connect (https://www.linkedin.com/in/benoyekola/)
+
+GitHub Issues: Open a conversation
+
+I'm also open to consulting engagements for SMEs implementing EU AI Act compliance.
+
+---
+
 ## License
 MIT
