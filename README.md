@@ -57,17 +57,22 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ## Repo map
 
-### 0_start-here/
+### `0_start-here/`
 
 - [`scope.md`](scope.md) — what's in/out, SME assumptions, definitions
 - [`how-to-use-this-repo.md`](how-to-use-this-repo.md) — three adoption routes
 - [`glossary.md`](glossary.md) — consistent terminology
 
-### 1_framework/
+### `1_framework/`
 
 - [`ai-governance-framework.md`](ai-governance-framework.md) — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
 
-### 12_platform-blueprint/
+### `4_eu-ai-act/`
+- [`eu-ai-act-controls-map.md`](eu-ai-act-controls-map.md) — obligation → control → evidence → owner → cadence → data governance dependency (Articles 9–15)
+- [`high-risk-requirements-checklist.md`](high-risk-requirements-checklist.md) — pre-deployment yes/no checklist with 25 items + 7 post-deployment ongoing obligations
+- [`regulatory-landscape.md`](regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
+
+### `12_platform-blueprint/`
 
 - [`product-brief.md`](product-brief.md) — Evidence Pack Generator wedge (public concept, not implementation)
 - [`mvp-workflows.md`](mvp-workflows.md) — workflow specs (inputs/steps/outputs)
