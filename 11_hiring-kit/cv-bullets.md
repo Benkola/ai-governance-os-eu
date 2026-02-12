@@ -1,1 +1,3 @@
-
+- Built an EU AI Act controls map translating Articles 9–15 into 24 implementable controls with evidence requirements, ownership, review cadence, and data governance dependencies
+- Created a 25-item pre-deployment requirements checklist and 7-item post-deployment monitoring checklist for high-risk AI systems under the EU AI Act
+- Authored a multi-regulatory landscape overview mapping governance intersections across EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, and ISO 42001
