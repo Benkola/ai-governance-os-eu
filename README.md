@@ -50,27 +50,28 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ## Start here
 
-1) `0_start-here/scope.md`  — boundaries, SME assumptions
-2) `1_framework/ai-governance-framework.md` — the system (lifecycle + evidence)
+1) [`0_start-here/scope.md`](0_start-here/scope.md)  — boundaries, SME assumptions
+2) [`1_framework/ai-governance-framework.md`](1_framework/ai-governance-framework.md) — the system (lifecycle + evidence)
+3) [`4_eu-ai-act/eu-ai-act-controls-map.md`](4_eu-ai-act/eu-ai-act-controls-map.md) — translate EU AI Act obligations into specific controls, evidence, and ownership
 ---
 
 ## Repo map
 
 ### 0_start-here/
 
-- `scope.md` — what's in/out, SME assumptions, definitions
-- `how-to-use-this-repo.md` — three adoption routes
-- `glossary.md` — consistent terminology
+- [`scope.md`](scope.md) — what's in/out, SME assumptions, definitions
+- [`how-to-use-this-repo.md`](how-to-use-this-repo.md) — three adoption routes
+- [`glossary.md`](glossary.md) — consistent terminology
 
 ### 1_framework/
 
-- `ai-governance-framework.md` — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
+- [`ai-governance-framework.md`](ai-governance-framework.md) — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
 
 ### 12_platform-blueprint/
 
-- `product-brief.md` — Evidence Pack Generator wedge (public concept, not implementation)
-- `mvp-workflows.md` — workflow specs (inputs/steps/outputs)
-- `moat-boundary.md` — what stays public vs private (defensibility)
+- [`product-brief.md`](product-brief.md) — Evidence Pack Generator wedge (public concept, not implementation)
+- [`mvp-workflows.md`](mvp-workflows.md) — workflow specs (inputs/steps/outputs)
+- [`moat-boundary.md`](moat-boundary.md) — what stays public vs private (defensibility)
 
 This repo is built weekly. The repo map is updated as new artefacts ship.
 
@@ -121,8 +122,6 @@ If you're hiring, building a governance function, or want to discuss AI governan
 LinkedIn: Let's connect (https://www.linkedin.com/in/benoyekola/)
 
 GitHub Issues: Open a conversation
-
-I'm also open to consulting engagements for SMEs implementing EU AI Act compliance.
 
 ---
 
