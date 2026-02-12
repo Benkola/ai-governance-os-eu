@@ -43,51 +43,49 @@ This controls map covers provider and deployer obligations for high-risk AI syst
 
 ## Article 11 — Technical Documentation
 
-> *To be completed*
-
 | Article | Obligation | Control | Evidence | Owner | Cadence | Data Governance Dependency |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| Art 11.1 | Technical documentation must be drawn up before the system is placed on the market or put into service, and kept up to date | Produce technical documentation covering all elements specified in Annex IV: system description, intended purpose, design specifications, development methodology, data requirements, performance metrics, risk management measures, and post-market monitoring plan. Complete documentation before deployment. | Technical documentation package aligned to Annex IV. Document version control log showing it was created before deployment and updated after material changes. | Technical Lead + AI Governance Lead | Created before initial deployment. Updated within 30 days of any material change to the system. | Data lineage documented (required for Annex IV data description sections). Training data profiled (required for Annex IV dataset description). |
+| Art 11.2 | Where a high-risk AI system is related to a product covered by other Union harmonisation legislation, a single set of technical documentation may be drawn up | Assess whether the AI system is embedded in a product subject to other EU legislation (e.g., medical devices, machinery, toys). If so, integrate AI Act technical documentation requirements into the existing product documentation rather than duplicating. | Regulatory applicability assessment identifying all applicable EU legislation. Integrated technical documentation or cross-reference matrix showing where AI Act requirements are addressed within product documentation. | AI Governance Lead + Regulatory Lead | At system design stage. Review when regulatory landscape changes. | None |
 
 ---
 
 ## Article 12 — Record-Keeping
 
-> *To be completed*
-
 | Article | Obligation | Control | Evidence | Owner | Cadence | Data Governance Dependency |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| Art 12.1 | High-risk AI systems must allow for automatic recording of events (logs) throughout the system's lifetime | Design the system with automatic logging enabled for key events: inputs received, outputs generated, decisions made, confidence scores, errors, anomalies, and operator interactions. Ensure logs are generated without manual intervention. | System design specification confirming logging capability. Sample log export demonstrating events are captured automatically. Log schema documentation. | Technical Lead | At system design stage. Verify logging is active at each deployment. | None (this is a system design requirement) |
+| Art 12.2, 12.3 | Logging must enable traceability and monitoring of system functioning, must be retained for an appropriate period | Define log retention policy specifying: what is logged, retention period (minimum duration appropriate to intended purpose and applicable law), storage location, access controls, and deletion schedule. Ensure logs are sufficient to reconstruct the system's decision process for any given output. | Log retention policy document. Evidence of log storage with access controls. Demonstration that logs can reconstruct a specific decision (sample trace from input to output). | Technical Lead + AI Governance Lead | Annually (policy review). Continuous (logging operation). | Data quality measurement (log data must be complete and uncorrupted). Data lineage documented (ability to trace decisions requires linked data chain). 
 
 ---
 
 ## Article 13 — Transparency and Provision of Information to Deployers
 
-> *To be completed*
-
 | Article | Obligation | Control | Evidence | Owner | Cadence | Data Governance Dependency |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| Art 13.1 | High-risk AI systems must be designed and developed to ensure their operation is sufficiently transparent for deployers to interpret output and use it appropriately | Produce deployer-facing documentation covering: system capabilities and limitations, intended purpose, input data requirements, output interpretation guidance, known failure modes, and conditions under which performance degrades. Use clear, non-technical language where the deployer is a non-specialist. | Deployer documentation or system card containing: intended purpose, capabilities, known limitations, performance benchmarks, input requirements, output interpretation guide, and failure mode descriptions. | AI Governance Lead + Technical Lead | Created before deployment. Updated when system behaviour changes materially. | None |
+| Art 13.3(b)(ii) | Instructions for use must include the level of accuracy, robustness, and cybersecurity, and any known or foreseeable circumstances that may impact performance | Include in deployer documentation: declared accuracy metrics with test conditions, robustness testing results, cybersecurity assessment summary, and specific circumstances known to affect performance (e.g., data drift, adversarial inputs, edge case populations). | Accuracy and performance declaration within deployer documentation. Robustness test summary. Cybersecurity assessment summary. List of known performance-affecting circumstances with mitigation guidance. | Technical Lead | Created before deployment. Updated when performance metrics change after retraining or system update. | Training data profiled (performance metrics depend on understanding data characteristics). Data quality measurement (declared accuracy is only meaningful if test data quality is known). |
 
 ---
 
 ## Article 14 — Human Oversight
 
-> *To be completed*
-
 | Article | Obligation | Control | Evidence | Owner | Cadence | Data Governance Dependency |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| Art 14.1, 14.2 | High-risk AI systems must be designed to allow effective human oversight during use, including the ability to fully understand capabilities and limitations, monitor operation, and interpret outputs | Design the system with a human oversight interface that enables an operator to: view system outputs and confidence levels, understand how the system reached a decision, monitor performance in real time, and access all relevant contextual information needed to evaluate output. | Human oversight design specification. Screenshots or description of oversight interface. Operator user guide documenting how to interpret outputs and monitor performance. | Technical Lead + AI Governance Lead | At system design stage. Review at each major system update. | None |
+| Art 14.3(d) | Humans must be able to decide not to use the system, override or reverse its output, or intervene in or stop the system's operation | Implement technical controls enabling an authorised operator to: override individual system outputs, intervene in the system's operation, and stop the system entirely. Document the override/stop procedure and ensure it is accessible without specialist technical knowledge. | Override and stop procedure document. Technical specification confirming override/stop controls exist. Test evidence demonstrating override and stop functions work as designed (test log with date). | Technical Lead | At system design stage. Test override/stop controls before each deployment. Retest after major updates. | None |
+| Art 14.4 | Persons assigned to human oversight must have the competence, training, and authority necessary to fulfil that role | Identify personnel responsible for human oversight for each high-risk AI system. Provide training covering: system capabilities and limitations, how to interpret outputs, when and how to intervene, escalation procedures, and regulatory context. Document completion and refresh training periodically. | Training programme specification. Training completion records per individual. Competence assessment results. Role assignment document confirming oversight authority. | AI Governance Lead + HR/People Lead | Training before deployment. Refresher annually. Update training when system changes materially. | None |
 
 ---
 
 ## Article 15 — Accuracy, Robustness and Cybersecurity
 
-> *To be completed*
-
 | Article | Obligation | Control | Evidence | Owner | Cadence | Data Governance Dependency |
 |---|---|---|---|---|---|---|
-| | | | | | | |
+| Art 15.1 | High-risk AI systems must achieve an appropriate level of accuracy, robustness, and cybersecurity throughout their lifecycle | Define minimum acceptable levels for accuracy, robustness, and cybersecurity at system design stage. Document these as measurable thresholds. Establish ongoing measurement and monitoring to ensure levels are maintained throughout the system's lifecycle, not just at deployment. | Accuracy, robustness, and cybersecurity threshold specification. Baseline measurement results at deployment. Ongoing measurement results from post-deployment monitoring. Remediation records when thresholds are breached. | Technical Lead + AI Governance Lead | Thresholds set at design stage. Baseline measured before deployment. Ongoing monitoring continuous or quarterly minimum. | Data quality measurement (accuracy metrics are only valid if measured against quality-assured test data). |
+| Art 15.2 | Accuracy levels and relevant accuracy metrics must be declared in accompanying instructions for use | Include declared accuracy metrics in deployer documentation (see Art 13.3). Specify: metric name (e.g., F1 score, AUC, precision, recall), value achieved, test conditions, and test dataset description. Clearly state what the metrics mean in practical terms for the deployer. | Accuracy declaration within deployer documentation specifying: metrics used, values achieved, test conditions, test dataset description, and plain-language interpretation for non-technical deployers. | Technical Lead | Before deployment. Update after retraining or when accuracy materially changes. | Training data profiled (deployer needs to understand what data the accuracy was measured against). |
+| Art 15.3 | High-risk AI systems must be resilient to errors, faults, or inconsistencies in input data and to attempts by unauthorised third parties to manipulate the system | Conduct robustness testing covering: noisy or incomplete input data, adversarial inputs, edge cases, and unexpected data formats. Conduct security testing covering: adversarial attacks, data poisoning, model extraction, and prompt injection (where applicable). Document results and implement mitigations for identified vulnerabilities. | Robustness test report documenting: test scenarios, results, and mitigations applied. Security assessment report documenting: threat model, vulnerabilities identified, penetration test results (if applicable), and mitigations applied. | Technical Lead + Security Lead | Before deployment. Repeat annually. Repeat after material system changes. Triggered by security incidents. | Data quality measurement (robustness testing requires controlled data inputs). |
+| Art 15.5 | High-risk AI systems must be resilient against attempts to alter their use, outputs, or performance by exploiting system vulnerabilities | Implement cybersecurity controls appropriate to the system's risk level. As a minimum: access controls for model and training data, integrity monitoring for model weights, input validation, audit logging of access and changes, and incident response procedure for security breaches. | Cybersecurity controls register documenting: controls implemented, coverage assessment, and residual risks. Access control configuration evidence. Integrity monitoring setup evidence. Incident response procedure for AI-specific security events. | Security Lead + Technical Lead | Before deployment. Review annually. Triggered by security incidents or vulnerability disclosures. | Data lineage documented (to detect unauthorised changes to training data). Data quality measurement (to detect data poisoning via quality degradation). |
 
 ---
 
