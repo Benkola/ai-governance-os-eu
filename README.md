@@ -53,6 +53,7 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 1) [`0_start-here/scope.md`](0_start-here/scope.md)  — boundaries, SME assumptions
 2) [`1_framework/ai-governance-framework.md`](1_framework/ai-governance-framework.md) — the system (lifecycle + evidence)
 3) [`4_eu-ai-act/eu-ai-act-controls-map.md`](4_eu-ai-act/eu-ai-act-controls-map.md) — translate EU AI Act obligations into specific controls, evidence, and ownership
+4) [`6_templates/intake-form.md`](6_templates/intake-form.md) — AI use case intake with data governance readiness
 ---
 
 ## Repo map
@@ -71,6 +72,15 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`eu-ai-act-controls-map.md`](eu-ai-act-controls-map.md) — obligation → control → evidence → owner → cadence → data governance dependency (Articles 9–15)
 - [`high-risk-requirements-checklist.md`](high-risk-requirements-checklist.md) — pre-deployment yes/no checklist with 25 items + 7 post-deployment ongoing obligations
 - [`regulatory-landscape.md`](regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
+
+### `2_risk-and-controls/`
+
+- [`data-governance-dependency-map.md`](data-governance-dependency-map.md) — which AI governance activities depend on which data governance capabilities (Article-by-Article + DAMA DMBOK mapping)
+
+### `6_templates/`
+
+- [`intake-form.md`](intake-form.md) — AI use case intake form with risk classification, data governance readiness, and regulatory landscape sections
+- [`risk-register.md`](risk-register.md) — risk register with scoring matrix, 5 financial services example entries, and governance cadence
 
 ### `12_platform-blueprint/`
 
