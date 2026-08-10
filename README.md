@@ -81,7 +81,7 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 ### `3_scorecards/`
 
 - [`readiness-scorecard.md`](3_scorecards/readiness-scorecard.md) — governance readiness self-assessment
-- [`supplier-due-dilligence-checklist.md`](3_scorecards/supplier-due-dilligence-checklist.md) — vendor AI due diligence checklist
+- [`supplier-due-dilligence-checklist.md`](3_scorecards/supplier-due-diligence-checklist.md) — vendor AI due diligence checklist
 - [`data-governance-baseline.md`](3_scorecards/data-governance-baseline.md) — 10-question data governance baseline assessment (0–30 score) with gap action planner and remediation sequence
 
 ### `4_eu-ai-act/`
