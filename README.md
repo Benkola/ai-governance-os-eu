@@ -67,15 +67,25 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 ### `1_framework/`
 
 - [`ai-governance-framework.md`](ai-governance-framework.md) — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
+  
+
+### `2_risk-and-controls/`
+
+- [`data-governance-dependency-map.md`](data-governance-dependency-map.md) — which AI governance activities depend on which data governance capabilities (Article-by-Article + DAMA DMBOK mapping)
+- [`maturity-model.md`](maturity-model.md) — five-level maturity model across 10 domains (6 AI governance + 4 data governance), with the gating principle (overall score = lowest domain)
+ 
+### `3_scorecards/`
+
+- [`supplier-due-diligence-checklist.md`](supplier-due-diligence-checklist.md) — vendor AI due diligence checklist
+- [`data-governance-baseline.md`](data-governance-baseline.md) — 10-question data governance baseline assessment (0–30 score) with gap action planner and remediation sequence
 
 ### `4_eu-ai-act/`
 - [`eu-ai-act-controls-map.md`](eu-ai-act-controls-map.md) — obligation → control → evidence → owner → cadence → data governance dependency (Articles 9–15)
 - [`high-risk-requirements-checklist.md`](high-risk-requirements-checklist.md) — pre-deployment yes/no checklist with 25 items + 7 post-deployment ongoing obligations
 - [`regulatory-landscape.md`](regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
+- [`sox-data-governance-alignment.md`](sox-data-governance-alignment.md) — how data governance supports SOx ITGCs; one control set satisfying AI Act + GDPR + SOx
 
-### `2_risk-and-controls/`
 
-- [`data-governance-dependency-map.md`](data-governance-dependency-map.md) — which AI governance activities depend on which data governance capabilities (Article-by-Article + DAMA DMBOK mapping)
 
 ### `6_templates/`
 
