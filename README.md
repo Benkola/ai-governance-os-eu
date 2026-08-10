@@ -66,9 +66,11 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ### `1_framework/`
 
-- - [`ai-governance-framework.md`](ai-governance-framework.md) — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
-- [`operating-model.md`](operating-model.md) — three-tier governance structure, role definitions (including Data Steward), decision rights, integration with existing structures
-- [`raci.md`](raci.md) — RACI matrix across 7 lifecycle phases with Data Steward and Data Owner as first-class roles
+- [`ai-governance-framework.md`](1_framework/ai-governance-framework.md) — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
+- [`operating-model.md`](1_framework/operating-model.md) — three-tier governance structure, role definitions (including Data Steward), decision rights, integration with existing structures
+- [`raci.md`](1_framework/raci.md) — RACI matrix across 7 lifecycle phases with Data Steward and Data Owner as first-class roles
+- [`governance-cadence.md`](1_framework/governance-cadence.md) — meeting rhythms, reporting cycles, escalation triggers, KPIs, annual governance calendar
+- [`moat-boundary.md`](1_framework/moat-boundary.md) — what stays public vs private (defensibility)
   
 
 ### `2_risk-and-controls/`
@@ -78,8 +80,9 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
  
 ### `3_scorecards/`
 
-- [`supplier-due-diligence-checklist.md`](supplier-due-diligence-checklist.md) — vendor AI due diligence checklist
-- [`data-governance-baseline.md`](data-governance-baseline.md) — 10-question data governance baseline assessment (0–30 score) with gap action planner and remediation sequence
+- [`readiness-scorecard.md`](3_scorecards/readiness-scorecard.md) — governance readiness self-assessment
+- [`supplier-due-dilligence-checklist.md`](3_scorecards/supplier-due-dilligence-checklist.md) — vendor AI due diligence checklist
+- [`data-governance-baseline.md`](3_scorecards/data-governance-baseline.md) — 10-question data governance baseline assessment (0–30 score) with gap action planner and remediation sequence
 
 ### `4_eu-ai-act/`
 - [`eu-ai-act-controls-map.md`](eu-ai-act-controls-map.md) — obligation → control → evidence → owner → cadence → data governance dependency (Articles 9–15)
@@ -87,12 +90,20 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`regulatory-landscape.md`](regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
 - [`sox-data-governance-alignment.md`](sox-data-governance-alignment.md) — how data governance supports SOx ITGCs; one control set satisfying AI Act + GDPR + SOx
 
+### `5_nist-crosswalk/`
+
+- [`nist-ai-rmf-crosswalk.md`](5_nist-crosswalk/nist-ai-rmf-crosswalk.md) — NIST AI RMF mapped to the framework
+- [`genai-profile-addendum.md`](5_nist-crosswalk/genai-profile-addendum.md) — NIST Generative AI Profile addendum
 
 
 ### `6_templates/`
 
 - [`intake-form.md`](intake-form.md) — AI use case intake form with risk classification, data governance readiness, and regulatory landscape sections
 - [`risk-register.md`](risk-register.md) — risk register with scoring matrix, 5 financial services example entries, and governance cadence
+
+### `11_hiring-kit/`
+
+- [`cv-bullets.md`](11_hiring-kit/cv-bullets.md) — CV bullets for EU AI Act compliance and governance roles
 
 ### `12_platform-blueprint/`
 
