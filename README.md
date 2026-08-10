@@ -66,7 +66,9 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ### `1_framework/`
 
-- [`ai-governance-framework.md`](ai-governance-framework.md) — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
+- - [`ai-governance-framework.md`](ai-governance-framework.md) — lifecycle + evidence pack + decision rights + data governance foundation + regulatory alignment
+- [`operating-model.md`](operating-model.md) — three-tier governance structure, role definitions (including Data Steward), decision rights, integration with existing structures
+- [`raci.md`](raci.md) — RACI matrix across 7 lifecycle phases with Data Steward and Data Owner as first-class roles
   
 
 ### `2_risk-and-controls/`
@@ -97,6 +99,9 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`product-brief.md`](product-brief.md) — Evidence Pack Generator wedge (public concept, not implementation)
 - [`mvp-workflows.md`](mvp-workflows.md) — workflow specs (inputs/steps/outputs)
 - [`moat-boundary.md`](moat-boundary.md) — what stays public vs private (defensibility)
+
+### `13_governance-ops/`
+- [`governance-cadence.md`](13_governance-ops/governance-cadence.md) — meeting rhythms, reporting cycles, escalation triggers, KPIs, annual governance calendar, common failure modes
 
 This repo is built weekly. The repo map is updated as new artefacts ship.
 
