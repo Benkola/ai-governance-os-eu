@@ -90,11 +90,6 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`regulatory-landscape.md`](4_eu-ai-act/regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
 - [`sox-data-governance-alignment.md`](4_eu-ai-act/sox-data-governance-alignment.md) — how data governance supports SOx ITGCs; one control set satisfying AI Act + GDPR + SOx
 
-### `5_nist-crosswalk/`
-
-- [`nist-ai-rmf-crosswalk.md`](5_nist-crosswalk/nist-ai-rmf-crosswalk.md) — NIST AI RMF mapped to the framework
-- [`genai-profile-addendum.md`](5_nist-crosswalk/genai-profile-addendum.md) — NIST Generative AI Profile addendum
-
 ### `6_templates/`
 
 - [`intake-form.md`](6_templates/intake-form.md) — AI use case intake form with risk classification, data governance readiness, and regulatory landscape sections
