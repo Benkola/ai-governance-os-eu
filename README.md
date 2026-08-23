@@ -60,9 +60,9 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ### `0_start-here/`
 
-- [`scope.md`](scope.md) — what's in/out, SME assumptions, definitions
-- [`how-to-use-this-repo.md`](how-to-use-this-repo.md) — three adoption routes
-- [`glossary.md`](glossary.md) — consistent terminology
+- [`scope.md`](0_start-here/scope.md) — what's in/out, SME assumptions, definitions
+- [`how-to-use-this-repo.md`](0_start-here/how-to-use-this-repo.md) — three adoption routes
+- [`glossary.md`](0_start-here/glossary.md) — consistent terminology
 
 ### `1_framework/`
 
@@ -71,30 +71,29 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`raci.md`](1_framework/raci.md) — RACI matrix across 7 lifecycle phases with Data Steward and Data Owner as first-class roles
 - [`governance-cadence.md`](1_framework/governance-cadence.md) — meeting rhythms, reporting cycles, escalation triggers, KPIs, annual governance calendar
 - [`moat-boundary.md`](1_framework/moat-boundary.md) — what stays public vs private (defensibility)
-  
 
 ### `2_risk-and-controls/`
 
-- [`data-governance-dependency-map.md`](data-governance-dependency-map.md) — which AI governance activities depend on which data governance capabilities (Article-by-Article + DAMA DMBOK mapping)
-- [`maturity-model.md`](maturity-model.md) — five-level maturity model across 10 domains (6 AI governance + 4 data governance), with the gating principle (overall score = lowest domain)
- 
+- [`data-governance-dependency-map.md`](2_risk-and-controls/data-governance-dependency-map.md) — which AI governance activities depend on which data governance capabilities (Article-by-Article + DAMA DMBOK mapping)
+- [`maturity-model.md`](2_risk-and-controls/maturity-model.md) — five-level maturity model across 10 domains (6 AI governance + 4 data governance), with the gating principle (overall score = lowest domain)
+
 ### `3_scorecards/`
 
 - [`readiness-scorecard.md`](3_scorecards/readiness-scorecard.md) — governance readiness self-assessment
-- [`supplier-due-dilligence-checklist.md`](3_scorecards/supplier-due-diligence-checklist.md) — vendor AI due diligence checklist
+- [`supplier-due-dilligence-checklist.md`](3_scorecards/supplier-due-dilligence-checklist.md) — vendor AI due diligence checklist
 - [`data-governance-baseline.md`](3_scorecards/data-governance-baseline.md) — 10-question data governance baseline assessment (0–30 score) with gap action planner and remediation sequence
 
 ### `4_eu-ai-act/`
-- [`eu-ai-act-controls-map.md`](eu-ai-act-controls-map.md) — obligation → control → evidence → owner → cadence → data governance dependency (Articles 9–15)
-- [`high-risk-requirements-checklist.md`](high-risk-requirements-checklist.md) — pre-deployment yes/no checklist with 25 items + 7 post-deployment ongoing obligations
-- [`regulatory-landscape.md`](regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
-- [`sox-data-governance-alignment.md`](sox-data-governance-alignment.md) — how data governance supports SOx ITGCs; one control set satisfying AI Act + GDPR + SOx
+
+- [`eu-ai-act-controls-map.md`](4_eu-ai-act/eu-ai-act-controls-map.md) — obligation → control → evidence → owner → cadence → data governance dependency (Articles 9–15)
+- [`high-risk-requirements-checklist.md`](4_eu-ai-act/high-risk-requirements-checklist.md) — pre-deployment yes/no checklist with 25 items + 7 post-deployment ongoing obligations
+- [`regulatory-landscape.md`](4_eu-ai-act/regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
+- [`sox-data-governance-alignment.md`](4_eu-ai-act/sox-data-governance-alignment.md) — how data governance supports SOx ITGCs; one control set satisfying AI Act + GDPR + SOx
 
 ### `5_nist-crosswalk/`
 
 - [`nist-ai-rmf-crosswalk.md`](5_nist-crosswalk/nist-ai-rmf-crosswalk.md) — NIST AI RMF mapped to the framework
 - [`genai-profile-addendum.md`](5_nist-crosswalk/genai-profile-addendum.md) — NIST Generative AI Profile addendum
-
 
 ### `6_templates/`
 
@@ -110,12 +109,9 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ### `12_platform-blueprint/`
 
-- [`product-brief.md`](product-brief.md) — Evidence Pack Generator wedge (public concept, not implementation)
-- [`mvp-workflows.md`](mvp-workflows.md) — workflow specs (inputs/steps/outputs)
-- [`moat-boundary.md`](moat-boundary.md) — what stays public vs private (defensibility)
-
-### `13_governance-ops/`
-- [`governance-cadence.md`](13_governance-ops/governance-cadence.md) — meeting rhythms, reporting cycles, escalation triggers, KPIs, annual governance calendar, common failure modes
+- [`product-brief.md`](12_platform-blueprint/product-brief.md) — Evidence Pack Generator wedge (public concept, not implementation)
+- [`mvp-workflows.md`](12_platform-blueprint/mvp-workflows.md) — workflow specs (inputs/steps/outputs)
+- [`moat-boundary.md`](12_platform-blueprint/moat-boundary.md) — what stays public vs private (defensibility)
 
 This repo is built weekly. The repo map is updated as new artefacts ship.
 
