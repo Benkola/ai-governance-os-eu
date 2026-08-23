@@ -98,11 +98,11 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 
 ### `6_templates/`
 
-- [`intake-form.md`](intake-form.md) — AI use case intake form with risk classification, data governance readiness, and regulatory landscape sections
-- [`risk-register.md`](risk-register.md) — risk register with scoring matrix, 5 financial services example entries, and governance cadence
-- [`model-card-template.md`](model-card-template.md) — model card template aligned to EU AI Act Articles 11 and 13, with per-section compliance cross-references
-- [`system-card-template.md`](system-card-template.md) — system card template for compound AI systems, mapping Article 14 oversight to each decision point
-- [`ai-documentation-standard.md`](ai-documentation-standard.md) — required documentation, owners, and review cadence across 7 lifecycle stages, scaled by risk tier
+- [`intake-form.md`](6_templates/intake-form.md) — AI use case intake form with risk classification, data governance readiness, and regulatory landscape sections
+- [`risk-register.md`](6_templates/risk-register.md) — risk register with scoring matrix, 5 financial services example entries, and governance cadence
+- [`model-card-template.md`](6_templates/model-card-template.md) — model card template aligned to EU AI Act Articles 11 and 13, with per-section compliance cross-references
+- [`system-card-template.md`](6_templates/system-card-template.md) — system card template for compound AI systems, mapping Article 14 oversight to each decision point
+- [`ai-documentation-standard.md`](6_templates/ai-documentation-standard.md) — required documentation, owners, and review cadence across 7 lifecycle stages, scaled by risk tier
 
 ### `11_hiring-kit/`
 
