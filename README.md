@@ -98,6 +98,12 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`system-card-template.md`](6_templates/system-card-template.md) — system card template for compound AI systems, mapping Article 14 oversight to each decision point
 - [`ai-documentation-standard.md`](6_templates/ai-documentation-standard.md) — required documentation, owners, and review cadence across 7 lifecycle stages, scaled by risk tier
 
+### `7_monitoring-incident/`
+
+- [`ai-monitoring-playbook.md`](7_monitoring-incident/ai-monitoring-playbook.md) — what to monitor (performance, drift, fairness, oversight), frequency, thresholds, escalation, and dashboard requirements
+- [`ai-incident-response-playbook.md`](7_monitoring-incident/ai-incident-response-playbook.md) — six-phase incident response with severity levels, communication templates, and EU AI Act Article 73 serious-incident notification
+- [`ai-audit-checklist.md`](7_monitoring-incident/ai-audit-checklist.md) — 50-item audit checklist mapped to AI Act Articles 9–15 and NIST RMF, with evidence collection guide
+
 ### `11_hiring-kit/`
 
 - [`cv-bullets.md`](11_hiring-kit/cv-bullets.md) — CV bullets for EU AI Act compliance and governance roles
