@@ -6,12 +6,12 @@
 
 ## Why case studies matter
 
-A governance framework is only as good as its application. It is easy to write a policy; it is hard to prove that policy produces defensible decisions on a real system with real data and real stakeholders. These case studies close that gap. They take a system from intake to monitoring, showing exactly which artefact governs each stage and how they connect.
+A governance framework is only as good as its application. It is easy to write a policy; it is hard to prove that policy produces defensible decisions on a real system with real data and real stakeholders. These case studies close that gap. They take a system from intake to monitoring (and, for the GenAI case, through a real incident), showing exactly which artefact governs each stage and how they connect.
 
-They also demonstrate the two things that most distinguish good governance from governance theatre:
+They also demonstrate the things that most distinguish good governance from governance theatre:
 
-- **Data governance as the foundation.** In the credit scoring case, the pivotal moment is remediating data governance *before* assessing risk — because a risk assessment built on un-profiled data is worthless. This is the repo's central thesis, proven in practice.
-- **Proportionality.** The chatbot case applies a deliberately light touch, because it is limited-risk. Governance that treats every system as high-risk is not rigorous — it is indiscriminate, and it buries the systems that actually matter.
+- **Data governance as the foundation.** In the credit scoring case, the pivotal moment is remediating data governance *before* assessing risk. In the GenAI case, a hallucination traces back to a stale source document. Across predictive and generative AI alike, the hardest failure is a data problem — the repo's central thesis, proven twice.
+- **Proportionality.** The systems here span high-risk to limited-risk, and the framework scales to each. Governance that treats every system as high-risk is not rigorous — it is indiscriminate, and it buries the systems that actually matter.
 
 ---
 
@@ -33,11 +33,19 @@ A vendor-provided GenAI chatbot answering routine customer questions — a limit
 
 **Read this to see:** proportionality in action, and why "limited-risk" never means "no obligations."
 
+### 3. GenAI Deployment — LLM Customer Support (Limited-Risk, Deep)
+
+[`genai-governance-case-study.md`](genai-governance-case-study.md)
+
+An LLM-powered customer-support assistant at a mid-size EU financial firm (foundation model via API + retrieval over the firm's own docs). Where case 2 shows the light-touch limited-risk baseline, this goes deep on the generative risk surface: six GenAI-specific risks (hallucination, prompt injection, data leakage) via the OWASP Top 10 for LLMs, guardrail design, GenAI-specific monitoring, and a worked incident — a hallucinated fee that harmed a customer and traced back to a stale source document. It also shows the deployer's reliance on the foundation model provider's GPAI (Chapter V) documentation.
+
+**Read this to see:** how the framework handles generative AI risk, why limited-risk GenAI still demands real controls, and how even a hallucination turns out to be a data governance problem.
+
 ---
 
-## The contrast is the point
+## The progression is the point
 
-Read together, these two cases show the same framework applied to radically different systems — full machinery for the high-risk model, a light touch for the limited-risk chatbot. That is proportionality working as intended: governance scaled to risk, rigorous where it matters and restrained where it doesn't.
+Read together, these cases show the same framework applied across the risk spectrum — full machinery for the high-risk credit model, a proportionate light touch for the basic chatbot, and deep generative-risk controls for the LLM deployment. That is proportionality working as intended: governance scaled to risk, rigorous where it matters and restrained where it doesn't, and equally at home with predictive and generative AI.
 
 ---
 
