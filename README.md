@@ -90,6 +90,11 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`regulatory-landscape.md`](4_eu-ai-act/regulatory-landscape.md) — EU AI Act, GDPR, DMA, DSA, SOx, DORA, NIST AI RMF, ISO 42001 at a glance
 - [`sox-data-governance-alignment.md`](4_eu-ai-act/sox-data-governance-alignment.md) — how data governance supports SOx ITGCs; one control set satisfying AI Act + GDPR + SOx
 
+### `5_nist-crosswalk/`
+
+- [`nist-ai-rmf-crosswalk.md`](5_nist-crosswalk/nist-ai-rmf-crosswalk.md) — NIST AI RMF (Govern/Map/Measure/Manage) mapped to the framework and EU AI Act articles
+- [`genai-profile-addendum.md`](5_nist-crosswalk/genai-profile-addendum.md) — NIST Generative AI Profile overlay for GenAI-specific risks
+
 ### `6_templates/`
 
 - [`intake-form.md`](6_templates/intake-form.md) — AI use case intake form with risk classification, data governance readiness, and regulatory landscape sections
@@ -103,6 +108,19 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 - [`ai-monitoring-playbook.md`](7_monitoring-incident/ai-monitoring-playbook.md) — what to monitor (performance, drift, fairness, oversight), frequency, thresholds, escalation, and dashboard requirements
 - [`ai-incident-response-playbook.md`](7_monitoring-incident/ai-incident-response-playbook.md) — six-phase incident response with severity levels, communication templates, and EU AI Act Article 73 serious-incident notification
 - [`ai-audit-checklist.md`](7_monitoring-incident/ai-audit-checklist.md) — 50-item audit checklist mapped to AI Act Articles 9–15 and NIST RMF, with evidence collection guide
+
+### `8_tooling/`
+
+- [`ai-tool-evaluation-rubric.md`](8_tooling/ai-tool-evaluation-rubric.md) — governance-first weighted scoring across 8 categories with veto conditions for AI tool procurement
+- [`vendor-governance-framework.md`](8_tooling/vendor-governance-framework.md) — full vendor lifecycle: due diligence, contractual requirements, onboarding, monitoring, exit, and provider/deployer responsibility split
+- [`poc-plan-template.md`](8_tooling/poc-plan-template.md) — proof-of-concept plan with functional and governance success criteria and risk gates
+
+
+### `9_case-studies/`
+
+- [`credit-scoring-case-study.md`](9_case-studies/credit-scoring-case-study.md) — governing a high-risk credit scoring model end to end: intake, data governance remediation, bias assessment, controls, evidence pack, and drift monitoring
+- [`genai-chatbot-case-study.md`](9_case-studies/genai-chatbot-case-study.md) — governing a limited-risk GenAI chatbot: Article 50 transparency (live now), proportionality, and vendor assurance
+- [`genai-governance-case-study.md`](9_case-studies/genai-governance-case-study.md) — governing a GenAI (LLM) customer-support deployment: GenAI-specific risks (OWASP Top 10 for LLMs), guardrails, monitoring, and a worked incident traced to stale source data
 
 ### `11_hiring-kit/`
 
