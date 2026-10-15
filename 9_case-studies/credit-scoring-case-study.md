@@ -110,7 +110,7 @@ NorthBank produces:
 
 *Artefacts used: framework evidence pack concept, [`raci.md`](../1_framework/raci.md), [`governance-cadence.md`](../1_framework/governance-cadence.md)*
 
-The AI Governance Lead assembles the evidence pack: intake form, risk register, data governance records, model card, system card, Annex IV documentation, conformity self-assessment, and human oversight protocol.
+The AI Governance Lead assembles the evidence pack: intake form, risk register, data governance records, model card, system card, Annex IV documentation, conformity self-assessment, human oversight protocol, and a fundamental rights impact assessment (FRIA), which Article 27 requires of deployers of Annex III 5(b) credit-scoring systems from 2 December 2027.
 
 Because this is a high-risk system, the deployment decision sits with the **Tier 1 Committee** (per the RACI and operating model). The committee reviews the evidence pack, notes that the Critical bias risk has been mitigated to Medium residual, confirms the data governance remediation is complete, and approves deployment with two conditions: monthly bias monitoring for the first six months, and a review if the override rate exceeds a set threshold.
 
