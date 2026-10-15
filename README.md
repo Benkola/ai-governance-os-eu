@@ -119,8 +119,10 @@ Conceptual backbone: DAMA DMBOK2 (Data Management Body of Knowledge).
 ### `9_case-studies/`
 
 - [`credit-scoring-case-study.md`](9_case-studies/credit-scoring-case-study.md) — governing a high-risk credit scoring model end to end: intake, data governance remediation, bias assessment, controls, evidence pack, and drift monitoring
-- [`genai-chatbot-case-study.md`](9_case-studies/genai-chatbot-case-study.md) — governing a limited-risk GenAI chatbot: Article 50 transparency (live now), proportionality, and vendor assurance
+- [`genai-chatbot-case-study.md`](9_case-studies/genai-chatbot-case-study.md) — governing a limited-risk GenAI chatbot: Article 50 transparency, proportionality, and vendor assurance
 - [`genai-governance-case-study.md`](9_case-studies/genai-governance-case-study.md) — governing a GenAI (LLM) customer-support deployment: GenAI-specific risks (OWASP Top 10 for LLMs), guardrails, monitoring, and a worked incident traced to stale source data
+- [`hr-analytics-governance-case-study.md`](9_case-studies/hr-analytics-governance-case-study.md) — governing a bought-in, high-risk HR screening and internal-mobility platform from the deployer side: a prohibited module removed, a bias audit, works council and candidate transparency, and a vendor-update incident caught by fairness monitoring
+
 
 ### `11_hiring-kit/`
 
