@@ -10,7 +10,8 @@ A governance framework is only as good as its application. It is easy to write a
 
 They also demonstrate the things that most distinguish good governance from governance theatre:
 
-- **Data governance as the foundation.** In the credit scoring case, the pivotal moment is remediating data governance *before* assessing risk. In the GenAI case, a hallucination traces back to a stale source document. Across predictive and generative AI alike, the hardest failure is a data problem — the repo's central thesis, proven twice.
+- **Data governance as the foundation.** In the credit scoring case, the pivotal moment is remediating data governance *before* assessing risk. In the GenAI case, a hallucination traces back to a stale source document. In the HR case, a CV parser ranks candidates down for the layout of their CV. Across predictive, generative and bought-in AI, the hardest failure is often a data problem.
+
 - **Proportionality.** The systems here span high-risk to limited-risk, and the framework scales to each. Governance that treats every system as high-risk is not rigorous — it is indiscriminate, and it buries the systems that actually matter.
 
 ---
@@ -41,11 +42,19 @@ An LLM-powered customer-support assistant at a mid-size EU financial firm (found
 
 **Read this to see:** how the framework handles generative AI risk, why limited-risk GenAI still demands real controls, and how even a hallucination turns out to be a data governance problem.
 
+### 4. HR / People Analytics — Screening and Internal Mobility (High-Risk, Bought-In)
+
+[`hr-analytics-governance-case-study.md`](hr-analytics-governance-case-study.md)
+
+A vendor candidate-screening and internal-mobility platform at a Dutch medtech group: Annex III high-risk, governed from the deployer's side. The case removes a prohibited emotion-recognition module bundled in the vendor's default tier, measures CV-parsing quality before the bias audit, finds and fixes two sources of discrimination risk, designs candidate transparency and a human review route, involves the works council, and catches a silent vendor model update through fairness monitoring.
+
+**Read this to see:** Article 26 deployer duties in practice, and why most of the law on HR AI already applies despite the December 2027 deadline.
+
 ---
 
 ## The progression is the point
 
-Read together, these cases show the same framework applied across the risk spectrum — full machinery for the high-risk credit model, a proportionate light touch for the basic chatbot, and deep generative-risk controls for the LLM deployment. That is proportionality working as intended: governance scaled to risk, rigorous where it matters and restrained where it doesn't, and equally at home with predictive and generative AI.
+Read together, these cases cover the range most organisations will meet: a high-risk model they built (credit scoring), a limited-risk system they bought (chatbot), a generative system with its own risk surface (LLM support), and a high-risk system they bought and remain accountable for (HR). The same framework applies throughout, scaled to the risk. In three of the four, the hardest failure traced back to data.
 
 ---
 
