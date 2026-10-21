@@ -150,7 +150,7 @@ A failed parse produced a near-empty profile, and a near-empty profile produced 
 |---|---|---|---|---|---|---|
 | HR-01 | Prohibited practice bundled in vendor product (Module C) | 5 | 5 | 25 | Critical | **Eliminate** — module removed and verified |
 | HR-02 | "Continuous experience" feature penalises career gaps: indirect sex discrimination risk | 4 | 5 | 20 | Critical | Mitigate — remove penalty; requirement-based scoring |
-| HR-03 | Parse failures rank down non-standard CVs and non-EU-educated candidates | 4 | 4 | 16 | Critical | Mitigate — route parse failures to human review |
+| HR-03 | Parse failures rank down non-standard CVs and non-EU-educated candidates | 4 | 4 | 16 | Critical | Mitigate — exception queue: hold unscored, show the reason, recruiter reviews the original CV |
 | HR-04 | Recruiters rubber-stamp the ranking, so the ranking becomes the decision (GDPR Art 22) | 4 | 4 | 16 | Critical | Mitigate — oversight design, sampling, metrics |
 | HR-05 | Age proxies (graduation year, qualification recency) | 3 | 4 | 12 | High | Mitigate — feature review; age-band monitoring |
 | HR-06 | Written-style scoring (Module D) disadvantages non-native speakers | 3 | 4 | 12 | High | Mitigate — disable where written English is not an essential job requirement |
@@ -179,7 +179,7 @@ Article 4a, added by the Omnibus, gives deployers of high-risk systems an except
 | Candidates educated outside the EU, all roles | 0.76 | Parse failures (Stage 5) |
 | Candidates aged 50+, all roles | 0.84 | Above trigger; graduation-year proxy watched |
 
-**Fixes:** the career-gap penalty was removed and scoring re-based on job requirements; parse failures were routed to a recruiter instead of being auto-scored; and Module D was disabled for roles where written English is not essential.
+**Fixes:** the career-gap penalty was removed and scoring re-based on job requirements; parse failures now go to an exception queue, where the candidate is held unscored, the reviewer sees the reason (for example, "CV could not be parsed: layout"), and a recruiter reviews the original CV before any decision; and Module D was disabled for roles where written English is not essential.
 
 **Re-test (simulated):** women in engineering 0.93; non-EU-educated 0.91; aged 50+ 0.88. The equal-opportunity check on the human re-review sample showed qualified candidates shortlisted at comparable rates across groups.
 
@@ -240,6 +240,7 @@ That design matters for GDPR Article 22. In *SCHUFA* (C-634/21, 2023), the CJEU 
 |---|---|---|---|
 | Selection-rate ratio by sex, age band and education origin, per role family | Below 0.80 | Monthly for six months, then quarterly | AI System Owner + HR Data Steward |
 | CV parse-failure rate by layout and education origin | Gap of 2+ percentage points versus overall | Weekly | HR Data Steward |
+| Exception queue: oldest unreviewed parse failure | Older than 3 working days | Daily | TA operations |
 | Recruiter override rate | Below 2% (possible rubber-stamping) or above 40% (ranking not useful) | Monthly | TA operations |
 | Below-cutoff sample: share a second recruiter would have shortlisted | Above 10% | Weekly | TA operations |
 | Human review requests and outcomes | Any overturned decision triggers root-cause analysis | Monthly | DPO |
